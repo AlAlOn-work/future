@@ -50,7 +50,7 @@ require_once "assets/bd.php";
         <h2>Оставить комментарий</h2>
         <form id="send-commend" method="post" action="assets/add_commend.php">
             <label for="commend-name">Ваше имя</label>
-            <input type="text" name="name" id="commend-name" value="Герасим">
+            <input type="text" name="name" id="commend-name" placeholder="Герасим">
             <label for="commend-message">Ваш комментарий</label>
             <textarea name="message" id="commend-message"></textarea>
             <button>Отправить</button>
